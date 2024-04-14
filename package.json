@@ -1,0 +1,36 @@
+{
+  "name": "tshirtstore",
+  "version": "1.0.0",
+  "description": "A Tshirt store",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "api",
+    "backend"
+  ],
+  "author": "Ashutosh Singh",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.0.2",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.9",
+    "express": "^4.18.3",
+    "express-fileupload": "^1.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.4.0",
+    "mongoose": "^8.2.0",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.11",
+    "nodemon": "^3.1.0",
+    "razorpay": "^2.9.2",
+    "stripe": "^14.19.0",
+    "swagger-ui-express": "^5.0.0",
+    "validator": "^13.11.0",
+    "yamljs": "^0.3.0"
+  }
+}
